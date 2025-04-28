@@ -17,3 +17,7 @@ poetry.lock
 # Data and storage directories
 data/
 storage/
+
+# macOS specific
+.DS_Store
+
