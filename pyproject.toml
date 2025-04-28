@@ -1,0 +1,23 @@
+[project]
+name = "llama-ai-test"
+version = "0.1.0"
+description = "A FastAPI application integrating the llama-index framework for Retrieval-Augmented Generation."
+authors = [
+    {name = "Your Name", email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10,<4.0"
+dependencies = [
+    "fastapi (>=0.115.12,<0.116.0)",
+    "pydantic (>=2.11.3,<3.0.0)",
+    "llama-index (>=0.12.33,<0.13.0)",
+    "uvicorn (>=0.18.0,<0.19.0)",
+    "llama-index-embeddings-huggingface (>=0.5.3,<0.6.0)",
+    "llama-index-llms-replicate (>=0.4.0,<0.5.0)",
+    "pydantic-settings (>=2.9.1,<3.0.0)",
+    "replicate (>=1.0.6,<2.0.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
