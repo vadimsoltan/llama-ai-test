@@ -21,6 +21,7 @@
    ```bash
    mkdir -p data storage
    ```
+   And populate them with requisite data.
 
 ## Usage
 
